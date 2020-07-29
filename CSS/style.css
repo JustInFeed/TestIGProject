@@ -1,0 +1,1227 @@
+/* body */
+
+body {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+  padding-right: 300px;
+  background: url("../IMg/RainbowBack.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px;
+  background-color: #05050f;
+}
+
+.flex {
+  display: flex;
+}
+
+
+ /* SUBLIME */
+
+ .Sublime__Text {
+   flex-direction: column;
+ }
+
+.Sublime__BigFont {
+  width: 20%;
+  font-size: 500%;
+  font-weight: bold;
+  margin-top: -50px;
+}
+
+.Sublime__Info {
+  padding-left: 50px;
+  margin-top: -140px;
+  font-weight: 300px;
+  font-size: 150%;
+}
+
+.Sublime__Download{
+  text-decoration: none;
+  color: #ffb703;
+  margin-top: 20px;
+  padding-left: 50px;
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.Sublime__Download:hover {
+  text-decoration: underline;
+  color: #ffb703;
+}
+
+/* Battlefield Image */
+
+
+
+.BattleImage__Container {
+  width: 100%;
+  height: 200%;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.Battlefield__Text {
+  width: 30%;
+   position: absolute;
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.AboutImage__Container
+{
+  flex-direction: row;
+  width: 10%;
+  margin-top: 10px;
+  color: #ffb703;
+  font-weight: 300;
+  font-size: 35%;
+  width: 100%;
+  height: 100%;
+}
+
+.About {
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.Development {
+  margin-right: 30px;
+}
+
+.Projects {
+  margin-right: 30px;
+}
+
+.About:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.Development:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.Projects:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.Blog:hover {
+  color: white;
+  text-decoration: underline;
+}
+ /* About Sublime Block */
+
+ .About__Sublime_Container {
+
+   flex-direction: row;
+   background-color: white;
+   width: 100%;
+   padding-bottom: 100px;
+ }
+
+ .About__Text {
+   width: 40%;
+   line-height: 100px;
+   font-weight: bold;
+   font-size: 700%;
+   margin-left: 80px;
+   margin-top: 100px;
+   color: Black;
+ }
+
+.About__Text2 {
+  width: 50%;
+  font-size: 120%;
+  padding-top: 20px;
+  color: Black;
+
+  padding-right: 50px;
+}
+
+
+/* GAMEPAD CONTAINER */
+
+.Gamepad__Info__Container {
+  padding-left: 80px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.Gamepad1 {
+
+
+
+  color: black;
+  flex-direction: column;
+  width: 15%;
+}
+
+.AppDevelopment {
+  margin-left: -50px;
+}
+
+.Gamepad2 {
+  color: black;
+  flex-direction: column;
+  width: 15%;
+}
+
+.GameDesign {
+  margin-left: -30px;
+}
+
+.Gamepad3 {
+  color: black;
+  flex-direction: column;
+  width: 15%;
+}
+
+.ContentCreation {
+  margin-left: -50px;
+}
+
+.LoremGamepad1 {
+  font-style: italic;
+  text-align: center;
+  margin-left: -55px;
+  width: 100%;
+  height: 20%;
+  font-size: 70%;
+}
+
+.LoremGamepad2 {
+  font-style: italic;
+  text-align: center;
+  margin-left: -55px;
+  width: 100%;
+  height: 20%;
+  font-size: 70%;
+}
+
+.LoremGamepad3 {
+  font-style: italic;
+  text-align: center;
+  margin-left: -55px;
+  width: 100%;
+  height: 20%;
+  font-size: 70%;
+}
+
+
+
+.Gamepad1_1 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+
+.Gamepad1_2 {
+
+  position: absolute;
+  margin-left: -60px;
+  margin-top: 15px;
+}
+
+.Gamepad1_3 {
+
+  position: absolute;
+  margin-left: -60px;
+  margin-top: 15px;
+}
+
+/* FEATURED PROJECTS*/
+
+.FeaturedProjects__Container {
+  flex-direction: column;
+  background-color: white;
+}
+
+
+.FeaturedProjects__MainText {
+  padding-left: 80px;
+  color: black;
+  font-size: 300%;
+
+}
+
+.FeaturedProjects__MainText::first-letter {
+  font-size: 200%;
+}
+
+.FeaturedProjects__MainTextBigP {
+  font-size: 200%;
+}
+
+.FeaturedProjects__MenuText {
+  color: black;
+  margin-top: 10px;
+  padding-left: 80px;
+  font-weight: bold;
+}
+
+.FeaturedProjects__AllWorks {
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.FeaturedProjects__AllWorks:hover {
+  border-bottom: solid 1px #ffb703;
+}
+
+.FeaturedProjects__Games {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.FeaturedProjects__Games:hover {
+  border-bottom: solid 1px #ffb703;
+}
+
+.FeaturedProjects__Aplications {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.FeaturedProjects__Aplications:hover {
+  border-bottom: solid 1px #ffb703;
+}
+
+.FeaturedProjects__ContentDevelopment {
+  text-decoration: none;
+  color: black;
+}
+
+.FeaturedProjects__ContentDevelopment:hover {
+  border-bottom: solid 1px #ffb703;
+}
+
+.FeaturedProjects__Image {
+  margin-top: 30px;
+}
+
+/* STRATEGIC PROCESS*/
+
+.StrategicProcess__Container {
+  background-color: white;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-right: 80px;
+}
+
+.StrategicProcess__MainText {
+  padding-top: 80px;
+  padding-left: 80px;
+  color: black;
+  font-size: 300%;
+
+}
+
+.StrategicProcess__MainText::first-letter {
+  font-size: 200%;
+}
+
+.StrategicProcess__MainTextBigP {
+  font-size: 200%;
+}
+
+.StrategicProcess__Content {
+  padding-left: 80px;
+  color: black;
+}
+
+  /* STRATEGIC PROCESS 2 */
+
+
+.StrategicProcess__Container2 {
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  flex-direction: column;
+  background-color: white;
+  color: Black;
+
+}
+
+/* OUR PROCESS BLOCK */
+
+.OurProcessBlock {
+  flex-direction: row;
+  width: 100%;
+}
+
+.OurProcessImage {
+  width: 50%;
+  height: 284px;
+}
+
+.OurProcessHeadText {
+  margin-left: 40px;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.OurProcessText {
+
+  width: 50%;
+}
+
+.OurProcessTextBlock {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 90%;
+  margin-top: 20px;
+}
+
+/* METHOD BLOCK */
+
+.MethodBlock {
+  flex-direction: row-reverse;
+}
+
+.MethodImage {
+  width: 50%;
+  height: 284px;
+}
+
+
+.MethodText {
+
+  width: 50%;
+
+
+}
+
+.MethodHeadText {
+  margin-left: 40px;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.MethodTextBlock {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 90%;
+  margin-top: 20px;
+}
+
+
+/* OUTCOME BLOCK */
+
+.OutComeBlock {
+  flex-direction: row;
+}
+
+.OutComeImage {
+  width: 50%;
+  height: 284px;
+}
+
+.OutComeText {
+  width: 50%;
+}
+
+.OutComeHeadText {
+  margin-left: 40px;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.OutComeTextBlock {
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-right: 40px;
+  font-size: 90%;
+}
+
+/* SERVICES PROVIDED */
+
+
+.ServicesProvidedContainer {
+ position: absolute;
+ width: 60%;
+ margin-top: 40px;
+ margin-left: 80px;
+ margin-right: 80px;
+
+}
+
+
+.ServiceProvidedImage {
+  width: 100%;
+  position: relative;
+
+}
+
+.ServicesProvidedLeftBlock {
+  width: 45%;
+}
+
+.ServicesProvidedLeftBlockText {
+  font-size: 250%;
+}
+
+.ServicesProvidedLeftBlockText::first-letter {
+  font-size: 200%;
+}
+
+.ServicesProvidedLeftBlockTextBigP {
+  font-size: 200%;
+}
+
+.ServicesProvidedRightContainer {
+  padding-top: 100px;
+  width: 70%;
+  flex-direction: column;
+}
+
+.ServicesProvidedRightBlock {
+  flex-direction: row;
+}
+
+.ServicesProvided__AppDevelopment {
+  padding-right: 100px;
+  flex-direction: column;
+}
+
+.ServicesProvided__AppDevelopmentText {
+  font-size: 70%;
+}
+
+.ServicesProvided__AppDevelopmentHeadText {
+  font-size: 130%;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.ServicesProvidedRightBlock2 {
+  padding-top: 50px;
+  flex-direction: row;
+}
+
+
+.ServicesProvided__GameDevelopment {
+
+  flex-direction: column;
+}
+
+.ServicesProvided__GameDevelopmentText {
+  font-size: 70%;
+}
+
+.ServicesProvided__GameDevelopmentHeadText {
+  font-size: 130%;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.ServicesProvided__AppDesign {
+  padding-right: 100px;
+  flex-direction: column;
+}
+
+.ServicesProvided__AppDesignText {
+  font-size: 70%;
+}
+
+.ServicesProvided__AppDesignHeadText {
+  font-size: 130%;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.ServicesProvided__GameDesign {
+
+  flex-direction: column;
+}
+
+.ServicesProvided__GameDesignText {
+  font-size: 70%;
+}
+
+.ServicesProvided__GameDesignHeadText {
+  font-size: 130%;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+
+/* OUR TEAM */
+
+
+.OurTeamContainer {
+  background-color: white;
+  padding-left: 80px;
+  padding-right: 80px;
+  flex-direction: row;
+  padding-bottom: 120px;
+}
+
+.OurTeamHead {
+  flex-direction: row;
+}
+
+.OurTeamHeadContainer {
+  flex-direction: row;
+  color: black;
+  font-size: 350%;
+  width: 30%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.OurTeamHeadTextBigO {
+  font-size: 140%;
+}
+
+.OurTeamHeadTextBigT {
+  font-size: 140%
+}
+
+.OurTeamHeadContent {
+  padding-top: 60px;
+  font-size: 100%;
+  color: black;
+}
+
+.OurTeamRightContainer {
+  width: 70%;
+  padding-left: 80px;
+  color: black;
+  flex-direction: column;
+}
+
+/* OUR TEAM PHOTO BLOCK */
+
+
+.OurTeamRightPhotoBlock: {
+  width: 100%;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+ .CEO {
+   width: 25%;
+   padding-right: 30px;
+   text-align: center;
+   font-size: 130%;
+   flex-direction: column;
+ }
+
+.CEOImage {
+  width: 100%;
+}
+
+ .ProcessManager {
+   width: 25%;
+   padding-right: 30px;
+   text-align: center;
+   font-size: 130%;
+   flex-direction: column;
+ }
+
+ .SaiesPresident {
+   width: 25%;
+   padding-right: 30px;
+   text-align: center;
+   font-size: 130%;
+   flex-direction: column;
+ }
+
+ .Developer {
+   width: 25%;
+   text-align: center;
+   font-size: 130%;
+   flex-direction: column;
+ }
+
+
+.JohnDoe {
+  font-weight: bold;
+}
+
+/* TESTIMONIALS */
+
+.TestimonialsContainer {
+  padding-left: 80px;
+  padding-right: 80px;
+  flex-direction: row;
+  padding-bottom: 100px;
+  background-color: black;
+}
+
+.TestimonialsLeftBlock {
+  flex-direction: column;
+  width: 60%;
+}
+
+.TestimonialsContentText {
+  padding-top: 80px;
+}
+
+.TestimonialsHeadText {
+  font-size: 350%;
+}
+
+.TestimonialsBigT {
+  font-size: 140%;
+}
+
+.TestimonialsRightBlock {
+  padding-top: 80px;
+}
+
+.Testimonials {
+
+  padding-left: 80px;
+  text-align: center;
+  font-size: 130%;
+  flex-direction: column;
+}
+
+.TestimonialsIMG {
+
+  width: 100%;
+}
+
+/* BLOGS BLOCK */
+
+
+.BlogsContainer {
+  padding-left: 80px;
+  padding-right: 20px;
+  flex-direction: row;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.BlogsLeftBlock {
+  width: 20%;
+}
+
+.BlogsContentContainer {
+  padding-bottom: 100px;
+}
+
+.BlogsHeadText {
+  color: black;
+  font-size: 350%;
+}
+
+.BlogsHeadTextBigB {
+  font-size: 140%;
+}
+
+.BlogsLeftBlock {
+  flex-direction: column;
+}
+
+.Blogs__MenuText {
+  font-size: 150%;
+  margin-top: 40px;
+  padding-left: 80px;
+
+  color: black;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.Blogs__LatestPosts {
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.Blogs__LatestPosts:hover {
+  color: #ffb703;
+}
+
+.Blogs__AppDesign {
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.Blogs__AppDesign:hover {
+  color: #ffb703;
+}
+
+.Blogs__AppDevelopment {
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.Blogs__AppDevelopment:hover {
+  color: #ffb703;
+}
+
+.Blogs__DesignSolutions {
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.Blogs__DesignSolutions:hover {
+  color: #ffb703;
+}
+
+.Blogs__QualityAssurance {
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.Blogs__QualityAssurance:hover {
+  color: #ffb703;
+}
+
+.Blogs__DevelopmentMode {
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.Blogs__DevelopmentMode:hover {
+  color: #ffb703;
+}
+
+.Blogs__WhatsOutThere {
+  color: black;
+  text-decoration: none;
+}
+
+.Blogs__WhatsOutThere:hover {
+  color: #ffb703;
+}
+
+.BlogsRightBlock {
+  width: 80%;
+}
+
+.BlogsRightPhotoBlock {
+  padding-top: 50px;
+  padding-left: 150px;
+  width: 100%;
+}
+
+.July {
+  text-align: center;
+  padding-right: 120px;
+  color: black;
+  flex-direction: column;
+}
+
+.June {
+  text-align: center;
+  padding-right: 120px;
+  color: black;
+  flex-direction: column;
+}
+
+.May {
+  text-align: center;
+  color: black;
+  flex-direction: column;
+}
+
+.Data {
+  font-size: 150%;
+  color: #ffb703;
+  padding-bottom: 20px;
+}
+
+.BlogsPhotoUpperText {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+/* CONTACT US */
+
+
+.ContactUsContainer {
+  background-color: white;
+  padding-bottom: 100px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.ContactUsLeftBlock {
+  width: 40%;
+}
+
+.MapImage {
+  width: 100%;
+  height: 684px;
+}
+
+.ContactUsRightBlock {
+  flex-direction: column;
+  background-color: blue;
+  width: 65%;
+  height: 684px;
+}
+
+.ContactUsRightBlockContent {
+
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+}
+
+.ContactUsHeadText {
+  padding-left: 30px;
+  font-size: 200%;
+}
+
+.ContactUsBigU {
+  font-size: 200%;
+}
+
+.ContactUsBigC {
+  font-size: 200%;
+}
+
+.ContactUsFields {
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.YourName {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: solid 2px #fff;
+  width: 500px;
+  height: 30px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.Mobile {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: solid 2px #fff;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  margin-right: 30px;
+}
+
+.Email {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: solid 2px #fff;
+  width: 262px;
+  height: 30px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.YourMessage {
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  border: solid 2px #fff;
+  width: 500px;
+  height: 30px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Oswald', sans-serif;
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+
+}
+
+.YourName:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity .4s ease-in-out;
+}
+
+.Mobile:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity .4s ease-in-out;
+}
+
+.Email:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity .4s ease-in-out;
+}
+
+.YourMessage:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity .4s ease-in-out;
+}
+
+.Button {
+  outline: none;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #ffb703;
+  color: black;
+  border: solid 2px #ffb703;
+  width: 100px;
+  height: 30px;
+}
+
+.LocationMap {
+  padding-top: 30px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.Address {
+  flex-direction: row;
+
+}
+
+.AdressText1 {
+  padding-top: 15px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.AdressText2 {
+  padding-left: 40px;
+  padding-top: 15px;
+  font-size: 110%;
+}
+
+.Phone {
+  flex-direction: row;
+
+}
+
+.PhoneText1 {
+  padding-top: 15px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.PhoneText2 {
+  padding-left: 50px;
+  padding-top: 15px;
+  font-size: 110%;
+}
+
+.ContactUsEmail {
+  flex-direction: row;
+
+}
+
+.ContactUsEmailText1 {
+  padding-top: 10px;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.ContactUsEmailText2 {
+  padding-left: 60px;
+  padding-top: 10px;
+  font-size: 110%;
+}
+
+.ContactUsFooterBorder {
+  padding-top: 60px;
+  border-bottom: solid 1px white;
+}
+ .Links {
+   flex-direction: row;
+   padding-top: 10px;
+ }
+
+
+ /* SUBLIME FOOTER */
+
+
+.SublimeFooterContainer {
+  flex-direction: row;
+  background-color: black;
+}
+
+ .SublimeFooterHeadText {
+   padding-left: 80px;
+   padding-top: 80px;
+   font-size: 400%;
+   font-weight: bold;
+ }
+
+.SublimeFooterLeftBlock {
+  flex-direction: column;
+  width: 30%;
+}
+
+.SublimeFooterMenuText {
+  color: white;
+  font-size: 120%;
+  padding-left: 80px;
+  padding-top: 40px;
+  flex-direction: column;
+}
+
+
+.SublimeFooter__Home {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__AboutSublime {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__OurWorks {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__Services {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__Team {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__Testimonials {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__Blog {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__Clients {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.SublimeFooter__ContactUs {
+  color: white;
+  text-decoration: none;
+}
+
+/* SUBLIME FOOTER MENU HOVER */
+
+.SublimeFooter__Home:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__AboutSublime:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__OurWorks:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__Services:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__Team:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__Testimonials:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__Blog:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__Clients:hover {
+  color: #ffb703;
+}
+
+.SublimeFooter__ContactUs:hover {
+  color: #ffb703;
+}
+
+
+.SublimeFooterBorder {
+  padding-top: 60px;
+  margin-left: 80px;
+  margin-right: 180px;
+  border-bottom: solid 3px #ffb703;
+}
+
+.Links2 {
+  flex-direction: row;
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+/* SUBLIME FOOTER RIGHT BLOCK */
+
+
+.SublimeFooterRightBlock {
+  width: 70%;
+}
+
+.SublimeFooterRightBlockContent {
+  width: 100%;
+}
+
+.SublimeFooterImage {
+  position: relative;
+  width: 100%;
+  height: 810px;
+}
+
+.SublimeFooterImageText {
+  position: absolute;
+  width: 80%;
+  padding-left: 20px;
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 750%;
+  font-weight: bold;
+
+}
+ /* FOOTER SPACE */
+
+ .FooterSpace {
+   background-color: white;
+   width: 100%;
+   height: 100px;
+ }
